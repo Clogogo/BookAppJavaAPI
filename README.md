@@ -9,6 +9,7 @@ Authentication and User Management
 For development, you will only need installed the following on your environment.
 * Java 11
 * Spring Boot
+* lombok
  
 
 ## Run backend
