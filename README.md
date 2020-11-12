@@ -1,4 +1,7 @@
-# E-Travel Web Application
+# E-Travel Web Application 
+Backend configuration REST API that
+@Rest controller 
+Authentication and User Management
 
 
 ## Requirements
@@ -8,13 +11,7 @@ For development, you will only need installed the following on your environment.
 * Spring Boot
 * Node.js
  
-## Run frontend
 
-    $ git clone https://github.com/Clogogo/Booking_application.git 
-    $ cd frondend
-    $ npm install
-    $ npm start
- 
 ## Run backend
 ```
 $ maven clean
