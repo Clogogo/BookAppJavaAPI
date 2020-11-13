@@ -17,7 +17,7 @@ import java.util.Set;
 @Table(name = "user")
 public class User {
   @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
   @NotBlank
@@ -33,7 +33,7 @@ public class User {
   @Size(max = 120)
   private String password;
 
-  @GeneratedValue(strategy = GenerationType.AUTO)
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   @ManyToMany(fetch = FetchType.LAZY)
   @JoinTable(
       name = "user_roles",
