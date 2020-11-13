@@ -1,7 +1,8 @@
 # E-Travel Web Application 
-Backend configuration REST API that
+Backend configuration REST API 
 @Rest controller 
-Authentication and User Management
+* Authentication
+* User Management
 
 
 ## Requirements
