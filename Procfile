@@ -1,2 +1,2 @@
 
-web:    java $JAVA_OPTS -jar target/dependency/login-properties.jar --port $PORT target/*.war
+java -Dserver.port=$PORT $JAVA_OPTS -jar target/test-0.0.1-SNAPSHOT.jar
