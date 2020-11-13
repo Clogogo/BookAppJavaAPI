@@ -1,4 +1,4 @@
 package com.example.project.euas.repository.booking;
 
-public class BookingRepository {
+public interface BookingRepository {
 }

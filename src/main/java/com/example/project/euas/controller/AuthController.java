@@ -88,7 +88,7 @@ public class AuthController {
     if (strRoles == null) {
       Role userRole =
           roleRepository
-              .findByName(EnumRole.ROLE_ADMIN)
+              .findByName(EnumRole.ROLE_USER)
               .orElseThrow(() -> new RuntimeException("Error: Role is not found."));
       roles.add(userRole);
     } else {
@@ -102,13 +102,13 @@ public class AuthController {
                         .orElseThrow(() -> new RuntimeException("Error: Role is not found."));
                 roles.add(adminRole);
 
-                break;
-              case "mod":
-                Role modRole =
-                    roleRepository
-                        .findByName(EnumRole.ROLE_MODERATOR)
-                        .orElseThrow(() -> new RuntimeException("Error: Role is not found."));
-                roles.add(modRole);
+//                break;
+//              case "mod":
+//                Role modRole =
+//                    roleRepository
+//                        .findByName(EnumRole.ROLE_MODERATOR)
+//                        .orElseThrow(() -> new RuntimeException("Error: Role is not found."));
+//                roles.add(modRole);
 
                 break;
               default:
