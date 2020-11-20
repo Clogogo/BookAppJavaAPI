@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/Clogogo/Booking-App-Java-API.svg?branch=main)](https://travis-ci.com/github/Clogogo/Booking-App-Java-API)
 
 
-                                                                                        <br />
+                                                                                        
 
 
 
